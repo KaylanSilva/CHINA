@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans';
+}
+
+body {
+    background-color: #93dbce;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+main {
+    margin: 39px; 
+    padding: 20px; 
+    border-radius: 15px; 
+    background-color: #DEEFE7; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: sans-serif;
+  }
+
+.menu {
+
+    background-color: #011F26;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    font-size:23px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    padding: 8px 18px;
+    border-radius: 15px;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+.menu .ativo,.menu a:hover {
+
+    color: rgb(0, 0, 0);
+    background-color: #BFB78F;
+
+}
+
+.logo {
+    position: absolute;
+    top: -10px;
+    left: 1110px;
+    padding: 0%;
+}
+.cabeçalho {color: rgb(255, 255, 255);
+position: absolute;
+font-size: 50px;
+margin-top: -14%;
+left: 50%;
+transform: translateX(-50%);
+padding: 90px;
+text-align: center;
+}
+
+p{
+    font-size: 25px;
+    margin: 30px;       
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+    color: #222621;
+    margin-left: 40px;
+    margin-top: 5%;
+}
+
+.img-bandmapa{
+
+    margin: 2.5%;
+    margin-top:1%;
+}
+
+
+.img-parque{
+
+    margin-top:1%;
+    margin: 2.5%;
+}
+
+.img-Central{
+
+    margin-left: 15%;
+    margin-top: 0%;
+}
+
+.Belezas{
+    text-align: left;
+    font-size: 40px;
+    color: #222621;
+    margin-left: 40px;
+    text-transform: uppercase;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.image-praia{
+    margin-top:1%;
+    margin: 2.5%;
+}
+
+.Turismo{
+    
+    text-align: left;
+    font-size: 40px;
+    color: #222621;
+    margin-left: 40px;
+    text-transform: uppercase;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.img-muralha{
+    margin-top:1%;
+    margin: 5%;
+    margin-left: 22%;
+}
+
+.img-Exercito{
+    margin-top:1%;
+    margin: 5%;
+    margin-left: 22%;
+}
+footer {
+    color: rgb(255, 255, 255);
+    background-color: #011F26;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    top: 3%;
+
+}
+
+.footer-copy {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.footer-nav .footer-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav .footer-item {
+    display: inline;
+    margin-right: 15px;
+
+}
+
+.footer-nav .footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.footer-nav .footer-link:hover {
+    text-decoration: None;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #BFB78F;
+    transition: 200ms;
+}
